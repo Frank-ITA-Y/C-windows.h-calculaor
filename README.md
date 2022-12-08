@@ -17,7 +17,7 @@ if you want install it you can use 2 metod:
 
 ## HELP ME
 
-I've some problem with GUI if you want to modify the graphics of app pleas contact me with a repository
+I've some problem with GUI if you want to modify the graphics of app please contact me with a repository
 
 ## **LICENCE**
 
