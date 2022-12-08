@@ -8,7 +8,7 @@ if you want install it you can use 2 metod:
     - write ```./calculator.exe```
     - if the file don't exist write in the **folder scr/cpp-file** ```g++ ./main.cpp -o main.exe -lgdi32``` after that  write```./calculator.exe```
     - or ```mingw32 make MakeFile```
-### LIBRARY FOR DEVELOPMENT OF THIS CALCULATOR
+### LIBRARIES FOR DEVELOPMENT OF THIS CALCULATOR
 ```c++
     #include <windows.h>
     #include <iostream>
