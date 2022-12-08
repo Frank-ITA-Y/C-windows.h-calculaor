@@ -10,10 +10,11 @@ if you want install it you can use 2 metod:
     - or ```mingw32 make MakeFile```
 ### LIBRARIES FOR DEVELOPMENT OF THIS CALCULATOR
 ```c++
-    #include <windows.h>
-    #include <iostream>
-    #include <windowsx.h>
-    #include <cltrcontrol>
+    #include  <iostream>
+    #include  <windows.h>
+    #include  <commctrl.h>
+    #include  <windowsx.h>
+    #include  <string>
 ```
 
 ## HELP ME
