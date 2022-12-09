@@ -25,6 +25,23 @@ entry point
     LRESULT CALLBACK WndCalcProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 ```
 add the {}
+Standard Window params
+```c++
+    WNDCLASSEX wc;
+    ZeroMemory(&wc, sizeof(WNDCLASSEX));
+    wc.cbSize = sizeof(WNDCLASSEX);
+    wc.cbClsExtra = 0;
+    wc.hInstance = hInstance;
+    wc.cbWndExtra = 0;
+    wc.style = CS_HREDRAW | CS_VREDRAW;
+    wc.hIcon = NULL;
+    wc.hIconSm = NULL;
+    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
+    wc.hbrBackground = NULL;
+    wc.lpszMenuName = NULL;
+    wc.lpszClassName = "wndCalcClass";
+    wc.lpfnWndProc = WndCalcProc;
+```
 
 ## HELP ME
 
