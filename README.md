@@ -16,7 +16,7 @@ if you want install it you can use 2 metod:
     #include  <windowsx.h>
     #include  <string>
 ```
-entry pont
+entry point
 ```c++
     INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lCmdLine, int nCmdShow)
 ```
