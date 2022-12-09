@@ -16,6 +16,15 @@ if you want install it you can use 2 metod:
     #include  <windowsx.h>
     #include  <string>
 ```
+entry pont
+```c++
+    INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lCmdLine, int nCmdShow)
+```
+"proc" definition
+```c++
+    LRESULT CALLBACK WndCalcProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+```
+add the {}
 
 ## HELP ME
 
