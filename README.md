@@ -2,7 +2,7 @@
 the _**~~best~~**_ **calculator** in the _world_ **(fake news)**
 
 ## INSTALLATION
-if you want install it you can use 2 metod:
+if you want install it you can use 2 ways:
 1. **double** _click_ ~~on~~ _calculator.exe_
 2. open **new** _terminal_ in the **folder bin**
     - write ```./calculator.exe```
